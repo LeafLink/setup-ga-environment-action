@@ -24,7 +24,7 @@ LeafLink's Docker tagging scheme uses the following logic:
 | --------- | ---------------------- | ----------- |
 | Push | `53b49b2` | Creates a single tag using the first 7 characters of the push's Git SHA |
 | Pull Request | `PR-{\d}` | Create a single tag using the GitHub pull request number |
-| Mege to `main` or `master` | `master-53b49b2`, '`master`, `latest` | Creates 3 tags where one uses the first 7 characters of the merge's Git SHA |
+| Mege to `main` or `master` | `master-53b49b2`, `master`, `latest` | Creates 3 tags where one uses the first 7 characters of the merge's Git SHA |
 | GitHub release published | `0.1.0`, `stable` | Creates 2 tags, one called `stable` and one representing the tag associated with the GitHub release |
 
 ## Usage
