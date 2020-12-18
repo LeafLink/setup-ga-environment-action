@@ -1,0 +1,7 @@
+name: Setup GitHub Action Environment
+description: Used by LeafLink repositories to setup common environment variables for use within GitHub actions
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/setup-environment.sh
+      shell: bash
