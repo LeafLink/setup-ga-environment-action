@@ -1,10 +1,19 @@
 # Changelog
 ---
 
-## [0.2.0](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.2.0) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.1.1...0.2.0))
+## [0.2.1](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.2.1) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.2.0...0.2.1))
+
+### Misc
+- Typo ([1a9717e](https://github.com/LeafLink/setup-ga-environment-action/commit/1a9717eec7793a1264305d76c57077f0120d8215)).
+
+
+## [0.2.0](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.2.0) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.1.1...0.2.0)) - 2020-12-18
 
 ### Added
 - Adds README content ([b122f23](https://github.com/LeafLink/setup-ga-environment-action/commit/b122f23fdc88c1138e3ed8efac630086b4523a83)).
+
+### Misc
+- Updated files for release 0.2.0 ([8756acd](https://github.com/LeafLink/setup-ga-environment-action/commit/8756acd2fd48f5e628e6075d1babe8a560dfe3c8)).
 
 
 ## [0.1.1](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.1.1) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.1.0...0.1.1)) - 2020-12-18
