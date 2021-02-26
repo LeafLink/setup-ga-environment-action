@@ -26,6 +26,7 @@ if [[ ! -z "${RELEASE_TAG}" ]]; then
     DOCKER_TAGS="${RELEASE_TAG},stable"
 fi
 
+DOCKER_TAGS_WITH_REPO=$(echo "${DOCKER_TAGS}" | tr "," "\n" | sed "s%^\(.*\)$%${AWS_ECR_BASE}/${REPO_NAME}:\1%" | tr "\n" "," | sed "s/,$//");
 
 echo "AWS_ACCOUNT_ID=${AWS_ACCOUNT_ID}" >> $GITHUB_ENV;
 echo "AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}" >> $GITHUB_ENV;
@@ -34,5 +35,6 @@ echo "AWS_ECR_BASE=${AWS_ECR_BASE}" >> $GITHUB_ENV;
 
 echo "DOCKER_TAG=${DOCKER_TAG}" >> $GITHUB_ENV;
 echo "DOCKER_TAGS=${DOCKER_TAGS}" >> $GITHUB_ENV;
+echo "DOCKER_TAGS_WITH_REPO=${DOCKER_TAGS_WITH_REPO}" >> $GITHUB_ENV;
 
 echo "REPO_NAME=${REPO_NAME}" >> $GITHUB_ENV;
