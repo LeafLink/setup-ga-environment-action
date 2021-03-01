@@ -1,10 +1,17 @@
 # Changelog
 ---
 
-## [0.2.2](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.2.2) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.2.1...0.2.2))
+## [0.3.0](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.3.0) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.2.2...0.3.0))
+
+### Added
+- add DOCKER_TAGS_WITH_REPO ([1a857f6](https://github.com/LeafLink/setup-ga-environment-action/commit/1a857f6fd8aac0b4c5a8820cd7ac8c891a051708)).
+
+
+## [0.2.2](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.2.2) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.2.1...0.2.2)) - 2020-12-18
 
 ### Misc
 - Typo ([1bb0eef](https://github.com/LeafLink/setup-ga-environment-action/commit/1bb0eef5a497dbbee0b87e40dc99126cf766b1f6)).
+- Updated files for release 0.2.2 ([604b752](https://github.com/LeafLink/setup-ga-environment-action/commit/604b752d3ab3548dea96fdcdb3bc7fcc98806d63)).
 
 
 ## [0.2.1](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.2.1) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.2.0...0.2.1)) - 2020-12-18
