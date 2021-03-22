@@ -4,7 +4,7 @@ Used by LeafLink repositories to setup common environment variables for use with
 
 ---
 
-[![Current Release](https://img.shields.io/badge/release-0.3.0-1eb0fc.svg)](https://github.com/leaflink/setup-ga-environment-action/releases/tag/0.3.0)
+[![Current Release](https://img.shields.io/badge/release-0.4.0-1eb0fc.svg)](https://github.com/leaflink/setup-ga-environment-action/releases/tag/0.4.0)
 
 ## Description
 
