@@ -1,10 +1,24 @@
 # Changelog
 ---
 
-## [0.3.1](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.3.1) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.3.0...0.3.1))
+## [0.5.0](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.5.0) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.4.0...0.5.0))
+
+### Added
+- Add yaml lint config ([cc4f155](https://github.com/LeafLink/setup-ga-environment-action/commit/cc4f155f32999cc161b07ff4c639f3d7f1af0ad3)).
+
+### Changed
+- change repo url ([9dfec6e](https://github.com/LeafLink/setup-ga-environment-action/commit/9dfec6e867a1dbc2b3316d0e3ee195a14c235a03)).
+
+### Misc
+- cp lint config ([6bb4564](https://github.com/LeafLink/setup-ga-environment-action/commit/6bb4564a66e69e1cf333b5f49f23f70b83d42e09)).
+- Revert ([b1258c7](https://github.com/LeafLink/setup-ga-environment-action/commit/b1258c774dd9380a98f1c1fb21fc6d472a2796a3)).
+
+
+## [0.4.0](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.4.0) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.3.0...0.4.0)) - 2021-03-22
 
 ### Misc
 - - Adding exporting of SHORT_SHA for use in PR environment deploys. ([8a6b652](https://github.com/LeafLink/setup-ga-environment-action/commit/8a6b652a5544953119b40fdd48ab6afdfc9e3b17)).
+- Updated files for release 0.4.0 ([4438046](https://github.com/LeafLink/setup-ga-environment-action/commit/44380464a7191017e8cb189eefd985d4c9a25e79)).
 
 
 ## [0.3.0](https://github.com/LeafLink/setup-ga-environment-action/releases/tag/0.3.0) ([compare](https://github.com/LeafLink/setup-ga-environment-action/compare/0.2.2...0.3.0)) - 2021-03-01
