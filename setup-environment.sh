@@ -41,4 +41,4 @@ echo "SHORT_COMMIT_SHA=${SHORT_SHA}" >> $GITHUB_ENV;
 echo "REPO_NAME=${REPO_NAME}" >> $GITHUB_ENV;
 
 # Setup Lint-er
-curl -s https://raw.githubusercontent.com/LeafLink/setup-ga-environment-action/cc4f155f32999cc161b07ff4c639f3d7f1af0ad3/.yamlint > $GITHUB_WORKSPACE/.yamlint;
+cp ./.yamlint $GITHUB_WORKSPACE/.yamlint
