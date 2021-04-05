@@ -1,0 +1,1 @@
+config_data: "{extends: default, rules: {line-length: disable, document-start: disable, new-line-at-end-of-file: disable, comments-indentation: disable, trailing-spaces: {level: warning}}}"
