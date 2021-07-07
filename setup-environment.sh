@@ -37,8 +37,8 @@ echo "DOCKER_TAG=${DOCKER_TAG}" >> $GITHUB_ENV;
 echo "DOCKER_TAGS=${DOCKER_TAGS}" >> $GITHUB_ENV;
 echo "DOCKER_TAGS_WITH_REPO=${DOCKER_TAGS_WITH_REPO}" >> $GITHUB_ENV;
 echo "SHORT_COMMIT_SHA=${SHORT_SHA}" >> $GITHUB_ENV;
-
 echo "REPO_NAME=${REPO_NAME}" >> $GITHUB_ENV;
+echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV;
 
 # Setup Lint-er
 curl -s https://raw.githubusercontent.com/LeafLink/setup-ga-environment-action/main/.yamlint > $GITHUB_WORKSPACE/.yamlint;
